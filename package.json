@@ -1,6 +1,6 @@
 {
   "name": "react-native-pagecurl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A realistic page curl effect component for React Native, powered by Skia GPU rendering and gesture-driven animations.",
   "main": "index.js",
   "scripts": {
