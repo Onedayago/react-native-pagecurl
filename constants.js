@@ -1,7 +1,7 @@
 // ═══════════════════════════════════════════════════════════════
 //  默认配置
 // ═══════════════════════════════════════════════════════════════
-
+import {Platform} from "react-native";
 /**
  * 组件默认属性配置
  * @property {number} width - 组件宽度（像素），同时作为纹理宽度
@@ -16,11 +16,11 @@
 export const DEFAULT_PROPS = {
 	width: 300,
 	height: 300,
-	curlRadius: 20,
+	curlRadius: 30,
 	edgeMargin: 100,
 	minDragDist: 3,
 	cols: 50,
-	rows: 100,
+	rows: 50,
 	bodyPaddingX: 50,
 };
 
@@ -33,7 +33,7 @@ export const DEFAULT_PROPS = {
  * @property {number} pageNumFontSize - 页码字号（像素）
  */
 export const DEFAULT_FONT = {
-	fontFamily: "PingFang SC",
+	fontFamily: Platform.OS === 'ios'?"PingFang SC":"sans-serif",
 	titleFontSize: 24,
 	authorFontSize: 22,
 	bodyFontSize: 16,

@@ -199,6 +199,7 @@ export function buildTextPage(options) {
 	// ── 导出为 Image 对象，释放 Surface ──
 	surface.flush();
 	const img = surface.makeImageSnapshot();
+	console.log(img);
 	surface.dispose();
 	return img.makeNonTextureImage();
 }
