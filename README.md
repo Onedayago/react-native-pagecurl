@@ -1,7 +1,8 @@
 # react-native-pagecurl
 
-React Native 翻页效果组件，基于 Skia GPU 渲染 + Reanimated 手势驱动，支持从左右边缘拖拽翻页，松手时超过半页自动完成翻页动画。
 
+React Native 翻页效果组件，基于 Skia GPU 渲染 + Reanimated 手势驱动，支持从左右边缘拖拽翻页，松手时超过半页自动完成翻页动画。
+## 源码地址 https://github.com/Onedayago/react-native-pagecurl
 ## 依赖
 
 ```bash
