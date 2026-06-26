@@ -1,9 +1,12 @@
-<img width="216" height="468" alt="Adobe Express - RPReplay_Final1782457197" src="https://github.com/user-attachments/assets/eb9533b9-c21e-4eff-8fee-082b0ef162ea" />
-
-# react-native-pagecurl
 
 
 React Native 翻页效果组件，基于 Skia GPU 渲染 + Reanimated 手势驱动，支持从左右边缘拖拽翻页，松手时超过半页自动完成翻页动画。
+
+
+
+<img width="216" height="468" alt="Adobe Express - RPReplay_Final1782457197" src="https://github.com/user-attachments/assets/eb9533b9-c21e-4eff-8fee-082b0ef162ea" />
+# react-native-pagecurl
+
 ## 源码地址 https://github.com/Onedayago/react-native-pagecurl
 ## 依赖
 

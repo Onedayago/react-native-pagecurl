@@ -1,11 +1,47 @@
 {
   "name": "react-native-pagecurl",
   "version": "1.0.0",
+  "description": "A realistic page curl effect component for React Native, powered by Skia GPU rendering and gesture-driven animations.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "keywords": [
+    "react-native",
+    "page-curl",
+    "book",
+    "ebook",
+    "skia",
+    "gesture",
+    "animation",
+    "gpu",
+    "reading"
+  ],
+  "author": "Onedayago",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onedayago/react-native-pagecurl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Onedayago/react-native-pagecurl/issues"
+  },
+  "homepage": "https://github.com/Onedayago/react-native-pagecurl#readme",
+  "files": [
+    "index.js",
+    "constants.js",
+    "geometry.js",
+    "textRenderer.js",
+    "useCurlGesture.js"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0",
+    "@shopify/react-native-skia": ">=0.1.0",
+    "react-native-gesture-handler": ">=2.0.0",
+    "react-native-reanimated": ">=2.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
